@@ -16,7 +16,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    [[RCIM sharedRCIM]initWithAppKey:@"25wehl3uwcksw"];
+    [[RCIM sharedRCIM] connectWithToken:@"Wcwqo68Mt8fTwGifUQlARs3vwcIQe96NYFY1k/MZvPYO4ZxSMA5+tdzaDCxxg30/pCpIoT1N5ZubJyLiUgzZ8xABYaBq2ZAp" success:^(NSString *userId) {
+        
+        NSLog(@"%@",userId);
+        
+    } error:^(RCConnectErrorCode status) {
+    
+        
+    } tokenIncorrect:^{
+        
+        
+    }];
+    
     return YES;
 }
 

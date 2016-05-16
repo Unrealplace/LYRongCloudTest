@@ -15,6 +15,8 @@
 		B6C4C4061CE9778B009CA756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C4041CE9778B009CA756 /* LaunchScreen.storyboard */; };
 		B6C4C4111CE9778B009CA756 /* LYRongCloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C4101CE9778B009CA756 /* LYRongCloudTestTests.m */; };
 		B6C4C41C1CE9778B009CA756 /* LYRongCloudTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C41B1CE9778B009CA756 /* LYRongCloudTestUITests.m */; };
+		B6C4C4601CE9B775009CA756 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C45E1CE9B775009CA756 /* libc++abi.tbd */; };
+		B6C4C4611CE9B775009CA756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C45F1CE9B775009CA756 /* libc++.tbd */; };
 		C40430D743381B61CD93CEE0 /* Pods_LYRongCloudTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780E7DEB41AA0FA7382C5F59 /* Pods_LYRongCloudTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		B6C4C41D1CE9778B009CA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C4C42A1CE998D1009CA756 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		B6C4C42C1CE998E2009CA756 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6C4C45E1CE9B775009CA756 /* libc++abi.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libc++abi.tbd"; sourceTree = "<group>"; };
+		B6C4C45F1CE9B775009CA756 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libc++.tbd"; sourceTree = "<group>"; };
 		D040AF21C89E1CB217F9F560 /* Pods-LYRongCloudTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYRongCloudTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYRongCloudTest/Pods-LYRongCloudTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C4C4611CE9B775009CA756 /* libc++.tbd in Frameworks */,
 				C40430D743381B61CD93CEE0 /* Pods_LYRongCloudTest.framework in Frameworks */,
+				B6C4C4601CE9B775009CA756 /* libc++abi.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +168,8 @@
 		B6C4C4291CE998AB009CA756 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				B6C4C45E1CE9B775009CA756 /* libc++abi.tbd */,
+				B6C4C45F1CE9B775009CA756 /* libc++.tbd */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				TargetAttributes = {
 					B6C4C3F21CE9778B009CA756 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L72ZTW35R4;
 					};
 					B6C4C40B1CE9778B009CA756 = {
 						CreatedOnToolsVersion = 7.2;
@@ -501,10 +510,18 @@
 			baseConfigurationReference = D040AF21C89E1CB217F9F560 /* Pods-LYRongCloudTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LYRongCloudTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
@@ -514,10 +531,18 @@
 			baseConfigurationReference = 16E789F36B59715DC0200426 /* Pods-LYRongCloudTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LYRongCloudTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;

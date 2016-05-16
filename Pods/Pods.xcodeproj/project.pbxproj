@@ -20,12 +20,6 @@
 		B6C4C43F1CE9999F009CA756 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C43E1CE9999F009CA756 /* CoreTelephony.framework */; };
 		B6C4C4411CE999AC009CA756 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4401CE999AC009CA756 /* CoreVideo.framework */; };
 		B6C4C4431CE999B5009CA756 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4421CE999B5009CA756 /* ImageIO.framework */; };
-		B6C4C4451CE999C1009CA756 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4441CE999C1009CA756 /* libc++.tbd */; };
-		B6C4C4471CE999CB009CA756 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4461CE999CB009CA756 /* libc++abi.tbd */; };
-		B6C4C4491CE999D8009CA756 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4481CE999D8009CA756 /* libsqlite3.tbd */; };
-		B6C4C44B1CE99A02009CA756 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C44A1CE99A02009CA756 /* libstdc++.tbd */; };
-		B6C4C44D1CE99A11009CA756 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C44C1CE99A11009CA756 /* libxml2.tbd */; };
-		B6C4C44F1CE99A19009CA756 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C44E1CE99A19009CA756 /* libz.tbd */; };
 		B6C4C4511CE99A22009CA756 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4501CE99A22009CA756 /* MapKit.framework */; };
 		B6C4C4531CE99A2B009CA756 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4521CE99A2B009CA756 /* OpenGLES.framework */; };
 		B6C4C4551CE99A36009CA756 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C4C4541CE99A36009CA756 /* QuartzCore.framework */; };
@@ -62,12 +56,6 @@
 		B6C4C43E1CE9999F009CA756 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		B6C4C4401CE999AC009CA756 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
 		B6C4C4421CE999B5009CA756 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		B6C4C4441CE999C1009CA756 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		B6C4C4461CE999CB009CA756 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libc++abi.tbd"; sourceTree = DEVELOPER_DIR; };
-		B6C4C4481CE999D8009CA756 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
-		B6C4C44A1CE99A02009CA756 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		B6C4C44C1CE99A11009CA756 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
-		B6C4C44E1CE99A19009CA756 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		B6C4C4501CE99A22009CA756 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		B6C4C4521CE99A2B009CA756 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		B6C4C4541CE99A36009CA756 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -89,12 +77,6 @@
 				B6C4C4551CE99A36009CA756 /* QuartzCore.framework in Frameworks */,
 				B6C4C4531CE99A2B009CA756 /* OpenGLES.framework in Frameworks */,
 				B6C4C4511CE99A22009CA756 /* MapKit.framework in Frameworks */,
-				B6C4C44F1CE99A19009CA756 /* libz.tbd in Frameworks */,
-				B6C4C44D1CE99A11009CA756 /* libxml2.tbd in Frameworks */,
-				B6C4C44B1CE99A02009CA756 /* libstdc++.tbd in Frameworks */,
-				B6C4C4491CE999D8009CA756 /* libsqlite3.tbd in Frameworks */,
-				B6C4C4471CE999CB009CA756 /* libc++abi.tbd in Frameworks */,
-				B6C4C4451CE999C1009CA756 /* libc++.tbd in Frameworks */,
 				B6C4C4431CE999B5009CA756 /* ImageIO.framework in Frameworks */,
 				B6C4C4411CE999AC009CA756 /* CoreVideo.framework in Frameworks */,
 				B6C4C43F1CE9999F009CA756 /* CoreTelephony.framework in Frameworks */,
@@ -201,12 +183,6 @@
 				B6C4C4541CE99A36009CA756 /* QuartzCore.framework */,
 				B6C4C4521CE99A2B009CA756 /* OpenGLES.framework */,
 				B6C4C4501CE99A22009CA756 /* MapKit.framework */,
-				B6C4C44E1CE99A19009CA756 /* libz.tbd */,
-				B6C4C44C1CE99A11009CA756 /* libxml2.tbd */,
-				B6C4C44A1CE99A02009CA756 /* libstdc++.tbd */,
-				B6C4C4481CE999D8009CA756 /* libsqlite3.tbd */,
-				B6C4C4461CE999CB009CA756 /* libc++abi.tbd */,
-				B6C4C4441CE999C1009CA756 /* libc++.tbd */,
 				B6C4C4421CE999B5009CA756 /* ImageIO.framework */,
 				B6C4C4401CE999AC009CA756 /* CoreVideo.framework */,
 				B6C4C43E1CE9999F009CA756 /* CoreTelephony.framework */,
