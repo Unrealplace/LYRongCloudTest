@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C4C3F81CE9778B009CA756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C3F71CE9778B009CA756 /* main.m */; };
+		B6C4C3FB1CE9778B009CA756 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C3FA1CE9778B009CA756 /* AppDelegate.m */; };
+		B6C4C3FE1CE9778B009CA756 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C3FD1CE9778B009CA756 /* ViewController.m */; };
+		B6C4C4011CE9778B009CA756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C3FF1CE9778B009CA756 /* Main.storyboard */; };
+		B6C4C4031CE9778B009CA756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C4021CE9778B009CA756 /* Assets.xcassets */; };
+		B6C4C4061CE9778B009CA756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C4C4041CE9778B009CA756 /* LaunchScreen.storyboard */; };
+		B6C4C4111CE9778B009CA756 /* LYRongCloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C4101CE9778B009CA756 /* LYRongCloudTestTests.m */; };
+		B6C4C41C1CE9778B009CA756 /* LYRongCloudTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C4C41B1CE9778B009CA756 /* LYRongCloudTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C4C40D1CE9778B009CA756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C4C3EB1CE9778B009CA756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C4C3F21CE9778B009CA756;
+			remoteInfo = LYRongCloudTest;
+		};
+		B6C4C4181CE9778B009CA756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C4C3EB1CE9778B009CA756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C4C3F21CE9778B009CA756;
+			remoteInfo = LYRongCloudTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6C4C3F31CE9778B009CA756 /* LYRongCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYRongCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C4C3F71CE9778B009CA756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6C4C3F91CE9778B009CA756 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6C4C3FA1CE9778B009CA756 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6C4C3FC1CE9778B009CA756 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6C4C3FD1CE9778B009CA756 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6C4C4001CE9778B009CA756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C4C4021CE9778B009CA756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C4C4051CE9778B009CA756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C4C4071CE9778B009CA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C4C40C1CE9778B009CA756 /* LYRongCloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYRongCloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C4C4101CE9778B009CA756 /* LYRongCloudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRongCloudTestTests.m; sourceTree = "<group>"; };
+		B6C4C4121CE9778B009CA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C4C4171CE9778B009CA756 /* LYRongCloudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYRongCloudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C4C41B1CE9778B009CA756 /* LYRongCloudTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRongCloudTestUITests.m; sourceTree = "<group>"; };
+		B6C4C41D1CE9778B009CA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C4C3F01CE9778B009CA756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C4091CE9778B009CA756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C4141CE9778B009CA756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C4C3EA1CE9778B009CA756 = {
+			isa = PBXGroup;
+			children = (
+				B6C4C3F51CE9778B009CA756 /* LYRongCloudTest */,
+				B6C4C40F1CE9778B009CA756 /* LYRongCloudTestTests */,
+				B6C4C41A1CE9778B009CA756 /* LYRongCloudTestUITests */,
+				B6C4C3F41CE9778B009CA756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C4C3F41CE9778B009CA756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4C3F31CE9778B009CA756 /* LYRongCloudTest.app */,
+				B6C4C40C1CE9778B009CA756 /* LYRongCloudTestTests.xctest */,
+				B6C4C4171CE9778B009CA756 /* LYRongCloudTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C4C3F51CE9778B009CA756 /* LYRongCloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4C3F91CE9778B009CA756 /* AppDelegate.h */,
+				B6C4C3FA1CE9778B009CA756 /* AppDelegate.m */,
+				B6C4C3FC1CE9778B009CA756 /* ViewController.h */,
+				B6C4C3FD1CE9778B009CA756 /* ViewController.m */,
+				B6C4C3FF1CE9778B009CA756 /* Main.storyboard */,
+				B6C4C4021CE9778B009CA756 /* Assets.xcassets */,
+				B6C4C4041CE9778B009CA756 /* LaunchScreen.storyboard */,
+				B6C4C4071CE9778B009CA756 /* Info.plist */,
+				B6C4C3F61CE9778B009CA756 /* Supporting Files */,
+			);
+			path = LYRongCloudTest;
+			sourceTree = "<group>";
+		};
+		B6C4C3F61CE9778B009CA756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4C3F71CE9778B009CA756 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C4C40F1CE9778B009CA756 /* LYRongCloudTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4C4101CE9778B009CA756 /* LYRongCloudTestTests.m */,
+				B6C4C4121CE9778B009CA756 /* Info.plist */,
+			);
+			path = LYRongCloudTestTests;
+			sourceTree = "<group>";
+		};
+		B6C4C41A1CE9778B009CA756 /* LYRongCloudTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4C41B1CE9778B009CA756 /* LYRongCloudTestUITests.m */,
+				B6C4C41D1CE9778B009CA756 /* Info.plist */,
+			);
+			path = LYRongCloudTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C4C3F21CE9778B009CA756 /* LYRongCloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C4C4201CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTest" */;
+			buildPhases = (
+				B6C4C3EF1CE9778B009CA756 /* Sources */,
+				B6C4C3F01CE9778B009CA756 /* Frameworks */,
+				B6C4C3F11CE9778B009CA756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYRongCloudTest;
+			productName = LYRongCloudTest;
+			productReference = B6C4C3F31CE9778B009CA756 /* LYRongCloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C4C40B1CE9778B009CA756 /* LYRongCloudTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C4C4231CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTestTests" */;
+			buildPhases = (
+				B6C4C4081CE9778B009CA756 /* Sources */,
+				B6C4C4091CE9778B009CA756 /* Frameworks */,
+				B6C4C40A1CE9778B009CA756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C4C40E1CE9778B009CA756 /* PBXTargetDependency */,
+			);
+			name = LYRongCloudTestTests;
+			productName = LYRongCloudTestTests;
+			productReference = B6C4C40C1CE9778B009CA756 /* LYRongCloudTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6C4C4161CE9778B009CA756 /* LYRongCloudTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C4C4261CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTestUITests" */;
+			buildPhases = (
+				B6C4C4131CE9778B009CA756 /* Sources */,
+				B6C4C4141CE9778B009CA756 /* Frameworks */,
+				B6C4C4151CE9778B009CA756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C4C4191CE9778B009CA756 /* PBXTargetDependency */,
+			);
+			name = LYRongCloudTestUITests;
+			productName = LYRongCloudTestUITests;
+			productReference = B6C4C4171CE9778B009CA756 /* LYRongCloudTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C4C3EB1CE9778B009CA756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiYang;
+				TargetAttributes = {
+					B6C4C3F21CE9778B009CA756 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B6C4C40B1CE9778B009CA756 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B6C4C3F21CE9778B009CA756;
+					};
+					B6C4C4161CE9778B009CA756 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B6C4C3F21CE9778B009CA756;
+					};
+				};
+			};
+			buildConfigurationList = B6C4C3EE1CE9778B009CA756 /* Build configuration list for PBXProject "LYRongCloudTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C4C3EA1CE9778B009CA756;
+			productRefGroup = B6C4C3F41CE9778B009CA756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C4C3F21CE9778B009CA756 /* LYRongCloudTest */,
+				B6C4C40B1CE9778B009CA756 /* LYRongCloudTestTests */,
+				B6C4C4161CE9778B009CA756 /* LYRongCloudTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C4C3F11CE9778B009CA756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C4C4061CE9778B009CA756 /* LaunchScreen.storyboard in Resources */,
+				B6C4C4031CE9778B009CA756 /* Assets.xcassets in Resources */,
+				B6C4C4011CE9778B009CA756 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C40A1CE9778B009CA756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C4151CE9778B009CA756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C4C3EF1CE9778B009CA756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C4C3FE1CE9778B009CA756 /* ViewController.m in Sources */,
+				B6C4C3FB1CE9778B009CA756 /* AppDelegate.m in Sources */,
+				B6C4C3F81CE9778B009CA756 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C4081CE9778B009CA756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C4C4111CE9778B009CA756 /* LYRongCloudTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4C4131CE9778B009CA756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C4C41C1CE9778B009CA756 /* LYRongCloudTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C4C40E1CE9778B009CA756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C4C3F21CE9778B009CA756 /* LYRongCloudTest */;
+			targetProxy = B6C4C40D1CE9778B009CA756 /* PBXContainerItemProxy */;
+		};
+		B6C4C4191CE9778B009CA756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C4C3F21CE9778B009CA756 /* LYRongCloudTest */;
+			targetProxy = B6C4C4181CE9778B009CA756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6C4C3FF1CE9778B009CA756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C4C4001CE9778B009CA756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C4C4041CE9778B009CA756 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C4C4051CE9778B009CA756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C4C41E1CE9778B009CA756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C4C41F1CE9778B009CA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C4C4211CE9778B009CA756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYRongCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6C4C4221CE9778B009CA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYRongCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6C4C4241CE9778B009CA756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYRongCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYRongCloudTest.app/LYRongCloudTest";
+			};
+			name = Debug;
+		};
+		B6C4C4251CE9778B009CA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYRongCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYRongCloudTest.app/LYRongCloudTest";
+			};
+			name = Release;
+		};
+		B6C4C4271CE9778B009CA756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYRongCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYRongCloudTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6C4C4281CE9778B009CA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYRongCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LYRongCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYRongCloudTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C4C3EE1CE9778B009CA756 /* Build configuration list for PBXProject "LYRongCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C4C41E1CE9778B009CA756 /* Debug */,
+				B6C4C41F1CE9778B009CA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C4C4201CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C4C4211CE9778B009CA756 /* Debug */,
+				B6C4C4221CE9778B009CA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C4C4231CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C4C4241CE9778B009CA756 /* Debug */,
+				B6C4C4251CE9778B009CA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C4C4261CE9778B009CA756 /* Build configuration list for PBXNativeTarget "LYRongCloudTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C4C4271CE9778B009CA756 /* Debug */,
+				B6C4C4281CE9778B009CA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C4C3EB1CE9778B009CA756 /* Project object */;
+}
